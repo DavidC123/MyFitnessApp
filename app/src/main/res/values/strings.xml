@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="push"> <u>Push Workout</u></string>
+    <string name="pull"> <u>Pull Workout</u></string>
+    <string name="legs"> <u>Leg Workout</u></string>
+    <string name="full"> <u>Full Body Workout</u></string>
+    <string name="upper"> <u>Upper Body Workout</u></string>
+    <string name="lower"> <u>Lower Body Workout</u></string>
+    <string name="cardio"> <u>Cardio/Abs</u></string>
+
+    <string name="app_name">myfitnessapp</string>
+    //activity 2
+
+    <string-array name="yearsExperience">
+        <item>No experience</item>
+        <item>1 - 6 months</item>
+        <item>1 years</item>
+        <item>2 years</item>
+        <item>3+ years</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    //activity 3
+
+    <string-array name="focus">
+        <item>Strength Training (Powerlifting)</item>
+        <item>Bodybuilding Training</item>
+        <item>Gain weight/muscle</item>
+        <item>Lose weight(lean out)</item>
+    </string-array>
+
+
+    <string-array name="improvement">
+        <item>Arms</item>
+        <item>Legs</item>
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Abs</item>
+        <item>Back</item>
+    </string-array>
+
+
+</resources>
