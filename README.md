@@ -9,6 +9,6 @@ LOGIN/SIGNUP
 ENTER CURRENT FITNESS PROGRESS
 <br>
 <img src="
-https://lh3.googleusercontent.com/YUEp59x1854-lFR9XUgS89NlzMrO8JpwxdiuS4HAGPhMdsF_bx7xX369ySMS2yTFew7kcNtMjdBvBSNw4reZoJyoyZi6i0zL1OAIKwDd7jbmjzoZpPGIsalgVN7IHkigMALmpVfb" width="200" height="200" />
+https://lh6.googleusercontent.com/ROmba_ONpY3JGrBu7rkAEBCyi87-HiyM9V1wyvc5w-a-3cSlKtY7KQo69St86f6t8tmuzTQ3qdf_hWfS0LH362Nrlw9Hbu5-YtZ8OrRF" width="200" height="200" />
 
 
