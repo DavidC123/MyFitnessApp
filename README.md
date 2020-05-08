@@ -8,6 +8,6 @@ LOGIN/SIGNUP
 
 ENTER CURRENT FITNESS PROGRESS
 <br>
-<img src="https://petapixel.com/assets/uploads/2019/02/mooncompositemain-800x800.jpg" width="200" height="200" />
+<img src="https://lh6.googleusercontent.com/ROmba_ONpY3JGrBu7rkAEBCyi87-HiyM9V1wyvc5w-a-3cSlKtY7KQo69St86f6t8tmuzTQ3qdf_hWfS0LH362Nrlw9Hbu5-YtZ8OrRF" width="200" height="200" />
 
 
