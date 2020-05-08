@@ -14,7 +14,7 @@ ENTER FITNESS GOALS
 <br>
 ![Goals page](https://lh5.googleusercontent.com/O8lu19RlFbGXgDceIlXQbbM0KYx3YPDFV4B6fvC2GDzX4yd69nAG48jQoaEvucE8m7c4_QEbl66aX4qfR0hR4l_5VuyJbFADIzQacqbq)
 
-WEEKLY WORKOUT SPLIT SUMMARY
+GET WEEKLY WORKOUT SPLIT SUMMARY
 <br>
 <img src="https://lh5.googleusercontent.com/aPBxioZvg1TyzA0dcBay4Ymygk5v9KXwziQmWIZ6yIMjrtVw2woE5SUll9M6OIROFFgFkBO9G4igw6pTezJdlNzrv6lK4hy_bwEg3IDl" width="300" height="600" />
 
