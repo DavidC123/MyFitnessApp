@@ -14,4 +14,9 @@ ENTER FITNESS GOALS
 <br>
 ![Goals page](https://lh5.googleusercontent.com/O8lu19RlFbGXgDceIlXQbbM0KYx3YPDFV4B6fvC2GDzX4yd69nAG48jQoaEvucE8m7c4_QEbl66aX4qfR0hR4l_5VuyJbFADIzQacqbq)
 
+WORKOUT SPLIT SUMMARY
+<br>
+![Goals page](https://lh6.googleusercontent.com/kIh4PGzloK4O03PkruP6vOcllYJ9uGdcvLFC1lEl-BpIS4fZJyU-jgpUjPWTUoQKytytY42sXkVypVAz6siLlJAw6NMITSuQMWMeC8zemJ1vU07RKnmkfa9BPh0bwM6gTw5BZOFj)
+
+
 
