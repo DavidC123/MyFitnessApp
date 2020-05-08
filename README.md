@@ -14,9 +14,13 @@ ENTER FITNESS GOALS
 <br>
 ![Goals page](https://lh5.googleusercontent.com/O8lu19RlFbGXgDceIlXQbbM0KYx3YPDFV4B6fvC2GDzX4yd69nAG48jQoaEvucE8m7c4_QEbl66aX4qfR0hR4l_5VuyJbFADIzQacqbq)
 
-WORKOUT SPLIT SUMMARY
+WEEKLY WORKOUT SPLIT SUMMARY
 <br>
 <img src="https://lh5.googleusercontent.com/aPBxioZvg1TyzA0dcBay4Ymygk5v9KXwziQmWIZ6yIMjrtVw2woE5SUll9M6OIROFFgFkBO9G4igw6pTezJdlNzrv6lK4hy_bwEg3IDl" width="300" height="600" />
+
+DAY 1 PUSH WORKOUT EXAMPLE
+<br>
+![Goals page](https://lh5.googleusercontent.com/sJ89kbHqVbg8aYnZ0m2oRIoE2otQ9cqEe-GINe6En4317NNIgkdRlFDZNM94WnUVDsEz5vXv3Fgcgc-UpYZvMJPxE9fDDszhTYn1swwn)
 
 
 
