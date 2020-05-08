@@ -16,7 +16,9 @@ ENTER FITNESS GOALS
 
 WORKOUT SPLIT SUMMARY
 <br>
-![Goals page](https://lh6.googleusercontent.com/kIh4PGzloK4O03PkruP6vOcllYJ9uGdcvLFC1lEl-BpIS4fZJyU-jgpUjPWTUoQKytytY42sXkVypVAz6siLlJAw6NMITSuQMWMeC8zemJ1vU07RKnmkfa9BPh0bwM6gTw5BZOFj)
+<img src="
+https://lh6.googleusercontent.com/kIh4PGzloK4O03PkruP6vOcllYJ9uGdcvLFC1lEl-BpIS4fZJyU-jgpUjPWTUoQKytytY42sXkVypVAz6siLlJAw6NMITSuQMWMeC8zemJ1vU07RKnmkfa9BPh0bwM6gTw5BZOFj" width="300" height="600" />
+
 
 
 
