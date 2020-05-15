@@ -5,7 +5,7 @@ Have you ever looked for a new online workout routine and realized that these wo
 
 LOGIN/SIGNUP
 <br>
-![Signin page](https://lh3.googleusercontent.com/fyDoNavUrkymGugMP1zeh9j3G8onDp8Bhvv-yriIfiFRy1OReL8frgA79h8IDOAgr8adKnegbUq4iqHcCvFMat-2EP2RgQr6waUAfT0R)       ![Signup page](https://lh5.googleusercontent.com/hoUhzcuTTogYh6LmGP-95ZbaMBsrrY7xIYgtEwfGpCxwXRb2aJm2a9bmFKyZf0DU2OA9H8Y-i1puPbJb1g12CaFQ-UxNWtho2jPTXl4f)
+![Signin page](https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/signin.png)       ![Signup page](https://lh5.googleusercontent.com/hoUhzcuTTogYh6LmGP-95ZbaMBsrrY7xIYgtEwfGpCxwXRb2aJm2a9bmFKyZf0DU2OA9H8Y-i1puPbJb1g12CaFQ-UxNWtho2jPTXl4f)
 <br>
 <br>
 
