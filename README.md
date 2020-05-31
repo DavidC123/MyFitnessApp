@@ -7,24 +7,28 @@ LOGIN/SIGNUP
 <br>
 ![Signin page](https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/signin.png)       ![Signup page](https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/signup.png)
 <br>
+<hr>
 <br>
 
 ENTER CURRENT FITNESS PROGRESS
 <br>
 <img src="https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/progress.png" width="300" height="600" />
 <br>
+<hr>
 <br>
 
 ENTER FITNESS GOALS
 <br>
 ![Goals page](https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/goals.png)
 <br>
+<hr>
 <br>
 
 GET WEEKLY WORKOUT SPLIT SUMMARY
 <br>
 <img src="https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/split.png" width="300" height="600" />
 <br>
+<hr>
 <br>
 
 DAY 1 PUSH WORKOUT EXAMPLE
