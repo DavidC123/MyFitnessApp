@@ -38,6 +38,10 @@ DAY 1 PUSH WORKOUT EXAMPLE
 <hr>
 <br>
 
+DISPLAY WORKOUT MOVEMENT .gif
+<br>
+<img src="https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/gif.png" width="300" height="600" />
+
 
 
 
