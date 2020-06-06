@@ -10,14 +10,14 @@ LOGIN/SIGNUP
 <hr>
 <br>
 
-ENTER CURRENT FITNESS PROGRESS
+ENTER AND STORE CURRENT FITNESS PROGRESS
 <br>
 <img src="https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/progress.png" width="300" height="600" />
 <br>
 <hr>
 <br>
 
-ENTER FITNESS GOALS
+ENTER AND STORE FITNESS GOALS
 <br>
 ![Goals page](https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/goals.png)
 <br>
