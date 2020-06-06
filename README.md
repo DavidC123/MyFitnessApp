@@ -33,7 +33,12 @@ GET WEEKLY WORKOUT SPLIT SUMMARY
 
 DAY 1 PUSH WORKOUT EXAMPLE
 <br>
-![Goals page](https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/workout.png)
+<img src="https://github.com/DavidC123/MyFitnessApp/blob/master/Screenshots/workout.png" width="300" height="600" />
+<br>
+<hr>
+<br>
+
+
 
 
 
