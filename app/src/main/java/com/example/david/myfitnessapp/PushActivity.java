@@ -3,9 +3,14 @@ package com.example.david.myfitnessapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
 import android.text.method.ScrollingMovementMethod;
+import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -50,7 +55,7 @@ public class PushActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.pushView);
         textView.setMovementMethod(new ScrollingMovementMethod());
 
-        textView.append("Push Workout\n\n\n\n");
+        textView.append("PUSH WORKOUT\n\n\n");
 
         if (p1.focus.equals("Strength Training (Powerlifting)")){
             for (int i = 0; i<pushPower.length; i++){
@@ -71,6 +76,124 @@ public class PushActivity extends AppCompatActivity {
             }
             textView.append("ESTIMATED WORKOUT TIME ~ 1 hour");
         }
+
+        String text = textView.getText().toString();
+
+        SpannableString ss = new SpannableString(text);
+
+        ClickableSpan benchPress = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+//                Toast.makeText(PushActivity.this, "Bench Press", Toast.LENGTH_SHORT).show();
+                bench_modal m = new bench_modal();
+                m.show(getSupportFragmentManager(), "bench_modal");
+            }
+        };
+
+        ClickableSpan inclineBench = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                incline_press_modal m = new incline_press_modal();
+                m.show(getSupportFragmentManager(), "incline_press_modal");
+            }
+        };
+
+        ClickableSpan dumbbellFlys = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                dumbbell_flys_modal m = new dumbbell_flys_modal();
+                m.show(getSupportFragmentManager(), "dumbbell_flys_modal");
+            }
+        };
+
+        ClickableSpan seatedTriceps = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                seatedTriceps m = new seatedTriceps();
+                m.show(getSupportFragmentManager(), "seatedTriceps");
+            }
+        };
+
+        ClickableSpan lateralRaise = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                lateralRaise m = new lateralRaise();
+                m.show(getSupportFragmentManager(), "lateralRaise");
+            }
+        };
+
+        ClickableSpan shoulderPress = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                shoulderPress m = new shoulderPress();
+                m.show(getSupportFragmentManager(), "shoulderPress");
+            }
+        };
+
+        ClickableSpan reverseFly = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                reverseFly m = new reverseFly();
+                m.show(getSupportFragmentManager(), "reverseFly");
+            }
+        };
+
+        ClickableSpan cableFly = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                cableFly m = new cableFly();
+                m.show(getSupportFragmentManager(), "cableFly");
+            }
+        };
+
+        ClickableSpan tricepPushdown = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                tricepPushdown m = new tricepPushdown();
+                m.show(getSupportFragmentManager(), "tricepPushdown");
+            }
+        };
+
+        ClickableSpan cableRear = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                cableRear m = new cableRear();
+                m.show(getSupportFragmentManager(), "cableRear");
+            }
+        };
+
+        ClickableSpan dips = new ClickableSpan(){
+            @Override
+            public void onClick(View widget){
+                dips m = new dips();
+                m.show(getSupportFragmentManager(), "dips");
+            }
+        };
+
+
+        if (p1.focus.equals("Strength Training (Powerlifting)") || p1.focus.equals("Gain weight/muscle")) {
+            ss.setSpan(benchPress, text.indexOf("Bench Press"), text.indexOf("Bench Press") + 11, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(inclineBench, text.indexOf("Incline Bench Press"), text.indexOf("Incline Bench Press") + 19, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(dumbbellFlys, text.indexOf("Dumbbell Chest Flys"), text.indexOf("Dumbbell Chest Flys") + 19, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(seatedTriceps, text.indexOf("Seated Dumbbell Tricep Extensions"), text.indexOf("Seated Dumbbell Tricep Extensions") + 33, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(lateralRaise, text.indexOf("Dumbbell Side Lateral Raise"), text.indexOf("Dumbbell Side Lateral Raise") + 27, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(shoulderPress, text.indexOf("Dumbbell Shoulder Press"), text.indexOf("Dumbbell Shoulder Press") + 23, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(reverseFly, text.indexOf("Reverse Machine Flys"), text.indexOf("Reverse Machine Flys") + 20, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }else {
+            ss.setSpan(benchPress, text.indexOf("Bench Press"), text.indexOf("Bench Press") + 11, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(cableFly, text.indexOf("Cable/Machine Chest Fly"), text.indexOf("Cable/Machine Chest Fly") + 23, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(inclineBench, text.indexOf("Incline Bench Press"), text.indexOf("Incline Bench Press") + 19, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(tricepPushdown, text.indexOf("Cable Tricep Pushdown"), text.indexOf("Cable Tricep Pushdown") + 21, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(lateralRaise, text.indexOf("Dumbbell Side Lateral Raise"), text.indexOf("Dumbbell Side Lateral Raise") + 27, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(shoulderPress, text.indexOf("Dumbbell Shoulder Press"), text.indexOf("Dumbbell Shoulder Press") + 23, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(cableRear, text.indexOf("Cable Rear Delt Flys"), text.indexOf("Cable Rear Delt Flys") + 20, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            ss.setSpan(dips, text.indexOf("Body Weighted Dips"), text.indexOf("Body Weighted Dips") + 18, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }
+
+
+
+        textView.setText(ss);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void logout5btn(View v) {

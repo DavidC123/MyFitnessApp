@@ -23,7 +23,7 @@ public class LegsActivity extends AppCompatActivity {
             "- EXERCISE 6: Lying Leg Curl Machine (3 sets, 6-10 repetitions per set, 90 seconds rest between sets)\n\n\n",
             "- EXERCISE 7: Standing Calf Raises (4 sets, 8-12 repetitions per set, 90 seconds rest between sets)\n\n\n"};
 
-    String [] legsBody = {"- EXERCISE 1:Barbell Squats/Hack Squat Machine (4 sets, 8-12 repetitions per set, 90 seconds rest between sets)\n\n\n",
+    String [] legsBody = {"- EXERCISE 1:Barbell Squats (4 sets, 8-12 repetitions per set, 90 seconds rest between sets)\n\n\n",
             "- EXERCISE 2: Walking Dumbbell Lunges (3 sets, 8-12 repetitions per set, 60 seconds rest between sets)\n\n\n",
             "- EXERCISE 3: Dumbbell Romanian Deadlift (3 sets, 8-12 repetitions per set, 60 seconds rest between sets)\n\n\n",
             "- EXERCISE 4: Leg Press Machine (3 sets, 8-12 repetitions per set, 80 seconds rest between sets)\n\n\n",

@@ -10,25 +10,53 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Nullable;
 
 public class Main3Activity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
+    FirebaseFirestore fStore;
+    String userID;
+    DocumentReference documentReference2;
+
     Person p1;
+    EditText weightTargetView;
+    Spinner focusSpinner;
+    Spinner improvementSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        setupUIViews();
 
-       /* Person p = (Person)getIntent().getSerializableExtra("Person");
-        TextView textView = findViewById(R.id.textView13);
-        textView.setText(p.currWeight +"\n" + p.experience + "\n" + p.frequency+ "\n");
-
-        */
 
         firebaseAuth = FirebaseAuth.getInstance();
+        fStore = FirebaseFirestore.getInstance();
+        userID = firebaseAuth.getCurrentUser().getUid();
+        documentReference2 = fStore.collection("user2").document(userID);
+
+        documentReference2.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
+                if (documentSnapshot.exists()) {
+                    focusSpinner.setSelection(documentSnapshot.getLong("focus").intValue());
+                    weightTargetView.setText(documentSnapshot.getString("targetweight"), TextView.BufferType.EDITABLE);
+                    improvementSpinner.setSelection(documentSnapshot.getLong("improvement").intValue());
+                }
+            }
+        });
 
         Spinner mySpinner4 = (Spinner) findViewById(R.id.spinner4);
 
@@ -48,11 +76,15 @@ public class Main3Activity extends AppCompatActivity {
 
     }
 
+    public void setupUIViews(){
+        weightTargetView = (EditText) findViewById(R.id.weightTarget);
+        focusSpinner = (Spinner) findViewById(R.id.spinner4);
+        improvementSpinner = (Spinner) findViewById(R.id.spinner6);
+
+    }
+
     public void buttonClicked3(View v) {
-        Spinner focusSpinner = (Spinner) findViewById(R.id.spinner4);
         String focus = focusSpinner.getSelectedItem().toString();
-        EditText weightTargetView = (EditText) findViewById(R.id.weightTarget);
-        Spinner improvementSpinner = (Spinner) findViewById(R.id.spinner6);
         String improvement = improvementSpinner.getSelectedItem().toString();
         String str = weightTargetView.getText().toString();
 
@@ -61,6 +93,19 @@ public class Main3Activity extends AppCompatActivity {
             int targetweight = Integer.parseInt(str);
             Person p = (Person)getIntent().getSerializableExtra("Person");
             p1 = new Person(p.currWeight,p.experience,p.frequency,focus,targetweight, improvement);
+
+
+            Map<String, Object> user = new HashMap<>();
+            user.put("focus", focusSpinner.getSelectedItemPosition());
+            user.put("targetweight", str);
+            user.put("improvement", improvementSpinner.getSelectedItemPosition());
+            documentReference2.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
+                @Override
+                public void onSuccess(Void aVoid) {
+                    System.out.println("Success");
+                }
+            });
+
             openActivity4();
         }
         else{

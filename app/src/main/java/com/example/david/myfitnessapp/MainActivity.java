@@ -52,13 +52,9 @@ public class MainActivity extends AppCompatActivity {
         else{
             Toast.makeText(getApplicationContext(),"Please fill out all the fields",Toast.LENGTH_SHORT).show();
         }
-
-
-
-
     }
 
-    public void createButton(View v) {
+    public void createButton(View v) {  //click signup button
         openActivityCreate();
     }
 

@@ -7,6 +7,7 @@
     tools:context=".PushActivity"
     android:background="@drawable/back3">
 
+
     <TextView
         android:gravity="center"
         android:scrollbars="vertical"
@@ -30,4 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.003" />
+
+
+
 </android.support.constraint.ConstraintLayout>
